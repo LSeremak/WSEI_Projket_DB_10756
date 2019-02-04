@@ -57,5 +57,18 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="HR" />
+    <Folder Include="rapOP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Cennik.sql" />
+    <Build Include="dbo\Klienci.sql" />
+    <Build Include="dbo\Marki.sql" />
+    <Build Include="dbo\Modele.sql" />
+    <Build Include="dbo\Pracownicy.sql" />
+    <Build Include="dbo\Zamówienia.sql" />
+    <Build Include="HR\HR.sql" />
+    <Build Include="rapOP\rapOp.sql" />
   </ItemGroup>
 </Project>
