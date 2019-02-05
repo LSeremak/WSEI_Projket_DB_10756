@@ -1,0 +1,4 @@
+﻿CREATE TABLE [HR].[Zespol]
+(
+	[Zespol] NVARCHAR(50) NOT NULL PRIMARY KEY
+)

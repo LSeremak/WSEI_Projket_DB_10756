@@ -1,0 +1,4 @@
+﻿CREATE TABLE [HR].[Stanowisko]
+(
+	[Stanowisko] NVARCHAR(100) NOT NULL PRIMARY KEY
+)
