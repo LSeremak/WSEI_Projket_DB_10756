@@ -63,11 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Cennik.sql" />
-    <Build Include="dbo\Klienci.sql" />
-    <Build Include="dbo\Marki.sql" />
-    <Build Include="dbo\Modele.sql" />
-    <Build Include="dbo\Pracownicy.sql" />
-    <Build Include="dbo\Zamówienia.sql" />
+    <Build Include="dbo\Klient.sql" />
+    <Build Include="dbo\Marka.sql" />
+    <Build Include="dbo\Model.sql" />
+    <Build Include="dbo\Pracownik.sql" />
+    <Build Include="dbo\Zamowienie.sql" />
     <Build Include="HR.sql" />
     <Build Include="rapOp.sql" />
   </ItemGroup>
