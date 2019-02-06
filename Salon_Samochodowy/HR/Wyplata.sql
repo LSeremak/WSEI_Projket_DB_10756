@@ -1,10 +1,13 @@
 ﻿CREATE TABLE [HR].[Wyplata]
 (
-	[PracownikID] INT NOT NULL, 
+	[WyplataID] INT NOT NULL,
+    [Kwota] NCHAR(10) NOT NULL, 
     [Kwota] NCHAR(10) NOT NULL, 
     [Typ] NCHAR(10) NOT NULL, 
-    [OkreWyplaty] DATE NULL, 
-    CONSTRAINT [PK_Wyplata] PRIMARY KEY ([PracownikID]), 
+    [OkresOd] DATE NOT NULL, 
+    [OkresDo] DATE NULL, 
+	[PracownikID] INT NOT NULL, 
+    CONSTRAINT [PK_Wyplata] PRIMARY KEY ([WyplataID]), 
     CONSTRAINT [FK_Wyplata_Pracownik] FOREIGN KEY ([PracownikID]) REFERENCES [Pracownik]([PracownikID]), 
     CONSTRAINT [CK_Wyplata_Typ] CHECK ([Typ] = 'pensja' OR [Typ] = 'premia')
 

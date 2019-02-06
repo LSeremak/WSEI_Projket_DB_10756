@@ -1,10 +1,11 @@
 ﻿CREATE TABLE [HR].[Wynagrodzenie]
 (
-	[PracownikID] INT NOT NULL, 
+	[WynagrodzenieId] INT NOT NULL,  
     [Kwota] MONEY NOT NULL, 
-    [WynagrodzenieOd] DATE NOT NULL, 
-    [WynagrodzenieDo] DATE NULL, 
-    CONSTRAINT [PK_Wynagrodzenie] PRIMARY KEY ([PracownikID]), 
+    [OkresOd] DATE NOT NULL, 
+    [OkresDo] DATE NULL, 
+	[PracownikID] INT NOT NULL,
+    CONSTRAINT [PK_Wynagrodzenie] PRIMARY KEY ([WynagrodzenieID]), 
     CONSTRAINT [FK_Wynagrodzenie_Pracownik] FOREIGN KEY ([PracownikID]) REFERENCES [Pracownik]([PracownikID])
 
 

@@ -266,4 +266,53 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="PracownikID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="0194b079-fb30-4425-8752-4043d99eee3c" ChangeDateTime="02/06/2019 20:30:04">
+    <Property Name="ElementName" Value="[HR].[Zespol].[Zespol]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[Zespol]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ZespolID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d7e17f35-d16b-4387-a7c5-1e0c1b4cd975" ChangeDateTime="02/06/2019 20:37:26">
+    <Property Name="ElementName" Value="[HR].[PracownikZespol].[Zespol]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[PracownikZespol]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ZespolID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8a8c9992-d54d-4d95-9ddd-04635483b1b6" ChangeDateTime="02/06/2019 20:38:15">
+    <Property Name="ElementName" Value="[HR].[Stanowisko].[Stanowisko]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[Stanowisko]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StanowiskoID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ceaa30dc-c46b-48b0-8245-2961f9e99f8c" ChangeDateTime="02/06/2019 20:43:47">
+    <Property Name="ElementName" Value="[HR].[PracownikStanowisko].[Stanowisko]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[PracownikStanowisko]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StanowiskoID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5758face-af11-4c8c-9929-27d2b8038e8c" ChangeDateTime="02/06/2019 20:47:14">
+    <Property Name="ElementName" Value="[HR].[Wynagrodzenie].[WynagrodzenieOd]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[Wynagrodzenie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OkresOd" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cdb2489f-7b3b-434b-9f80-b7ea3f87c077" ChangeDateTime="02/06/2019 20:47:21">
+    <Property Name="ElementName" Value="[HR].[Wynagrodzenie].[WynagrodzenieDo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[Wynagrodzenie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OkresDo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1868980-0604-4ae9-b316-d420aea7380c" ChangeDateTime="02/06/2019 20:51:52">
+    <Property Name="ElementName" Value="[HR].[Wyplata].[OkreWyplaty]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[Wyplata]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OkresOd" />
+  </Operation>
 </Operations>
