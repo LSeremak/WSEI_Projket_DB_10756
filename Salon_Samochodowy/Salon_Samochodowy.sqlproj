@@ -59,7 +59,8 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="HR" />
-    <Folder Include="rapOP" />
+    <Folder Include="rapOp" />
+    <Folder Include="Serwis" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Cennik.sql" />
@@ -76,6 +77,11 @@
     <Build Include="HR\PracownikStanowisko.sql" />
     <Build Include="HR\Wynagrodzenie.sql" />
     <Build Include="HR\Wyplata.sql" />
+    <Build Include="Serwis.sql" />
+    <Build Include="Serwis\Usluga.sql" />
+    <Build Include="Serwis\Zamowienie.sql" />
+    <Build Include="Serwis\Status.sql" />
+    <Build Include="Serwis\HistoriaZamowienia.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Salon_Samochodowy.refactorlog" />

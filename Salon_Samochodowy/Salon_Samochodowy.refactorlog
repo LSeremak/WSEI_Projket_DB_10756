@@ -315,4 +315,46 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="OkresOd" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="08964aae-e302-4acc-8dae-a488f1f56e2a" ChangeDateTime="02/06/2019 21:35:42">
+    <Property Name="ElementName" Value="[Serwis].[Uslugi].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Serwis].[Uslugi]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UslugaID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c5c6d89a-6d85-4e03-8be2-99cf61382d6a" ChangeDateTime="02/06/2019 21:47:21">
+    <Property Name="ElementName" Value="[dbo].[Zamowienia].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Zamowienia]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ZamowienieID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="decbc46f-4565-4dd9-88c1-4b34db7a5310" ChangeDateTime="02/06/2019 21:58:12">
+    <Property Name="ElementName" Value="[Serwis].[Status].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Serwis].[Status]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Nazwa" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4fdcf5b3-6b2a-4f4d-8fdf-f61b752d3ea5" ChangeDateTime="02/06/2019 22:01:35">
+    <Property Name="ElementName" Value="[dbo].[Model].[Typ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Model]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TypNadwozia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed697d05-4078-4fae-b927-0dc1e38bf802" ChangeDateTime="02/06/2019 22:05:00">
+    <Property Name="ElementName" Value="[Serwis].[HistoriaZamowienia].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Serwis].[HistoriaZamowienia]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cedaa36b-832c-41b9-9057-e3e879dd169a" ChangeDateTime="02/06/2019 22:21:37">
+    <Property Name="ElementName" Value="[Serwis].[HistoriaZamowienia].[Nazwa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Serwis].[HistoriaZamowienia]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Status" />
+  </Operation>
 </Operations>
