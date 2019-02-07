@@ -1,8 +1,7 @@
 ﻿CREATE TABLE [HR].[Wyplata]
 (
 	[WyplataID] INT NOT NULL,
-    [Kwota] NCHAR(10) NOT NULL, 
-    [Kwota] NCHAR(10) NOT NULL, 
+    [Kwota] MONEY NOT NULL, 
     [Typ] NCHAR(10) NOT NULL, 
     [OkresOd] DATE NOT NULL, 
     [OkresDo] DATE NULL, 
