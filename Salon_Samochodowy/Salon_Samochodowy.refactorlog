@@ -357,4 +357,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Status" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="d881bef0-dcfa-4253-a0e4-71e61ba82d6b" ChangeDateTime="02/07/2019 13:22:04">
+    <Property Name="ElementName" Value="[HR].[Wynagrodzenie].[WynagrodzenieId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HR].[Wynagrodzenie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WynagrodzenieID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ff50cd47-7509-47b0-8060-cdbcc063851e" ChangeDateTime="02/07/2019 20:04:06">
+    <Property Name="ElementName" Value="[Serwis].[HistoriaZamowienia].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Serwis].[HistoriaZamowienia]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HistoriaZamowieniaID" />
+  </Operation>
 </Operations>

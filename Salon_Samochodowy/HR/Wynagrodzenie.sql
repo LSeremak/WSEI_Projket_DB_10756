@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [HR].[Wynagrodzenie]
 (
-	[WynagrodzenieId] INT NOT NULL,  
+	[WynagrodzenieID] INT NOT NULL,  
     [Kwota] MONEY NOT NULL, 
     [OkresOd] DATE NOT NULL, 
     [OkresDo] DATE NULL, 
