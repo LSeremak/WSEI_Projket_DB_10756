@@ -5,3 +5,5 @@
 	 JOIN HR.PracownikZespol AS pz ON wy.PracownikID = pz.PracownikID
 	 JOIN HR.Zespol AS ze ON pz.ZespolID = ze.ZespolID
 	 GROUP BY ze.ZespolID, ze.Nazwa;
+
+	 --Widok prezentuje średnie wynagrodzenie w zespole

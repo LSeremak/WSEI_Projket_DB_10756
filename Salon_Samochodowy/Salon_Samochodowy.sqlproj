@@ -61,6 +61,7 @@
     <Folder Include="HR" />
     <Folder Include="rapOp" />
     <Folder Include="Serwis" />
+    <Folder Include="Security" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Cennik.sql" />
@@ -69,15 +70,12 @@
     <Build Include="dbo\Model.sql" />
     <Build Include="dbo\Pracownik.sql" />
     <Build Include="dbo\Zamowienie.sql" />
-    <Build Include="HR.sql" />
-    <Build Include="rapOp.sql" />
     <Build Include="HR\Stanowisko.sql" />
     <Build Include="HR\Zespol.sql" />
     <Build Include="HR\PracownikZespol.sql" />
     <Build Include="HR\PracownikStanowisko.sql" />
     <Build Include="HR\Wynagrodzenie.sql" />
     <Build Include="HR\Wyplata.sql" />
-    <Build Include="Serwis.sql" />
     <Build Include="Serwis\Usluga.sql" />
     <Build Include="Serwis\Zamowienie.sql" />
     <Build Include="Serwis\Status.sql" />
@@ -89,8 +87,15 @@
     <Build Include="rapOp\v_HR_PracownikStanowisko.sql" />
     <Build Include="rapOp\v_HR_Premia.sql" />
     <Build Include="rapOp\v_HR_SrednieWynagrodzenieZespolu.sql" />
+    <Build Include="rapOp\v_Serwis_ZamowienieWRealizcaji.sql" />
+    <Build Include="Security\HR.sql" />
+    <Build Include="Security\rapOp.sql" />
+    <Build Include="Security\Serwis.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Salon_Samochodowy.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dane.sql" />
   </ItemGroup>
 </Project>
